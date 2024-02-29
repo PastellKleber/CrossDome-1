@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Freies%20Projekt_Dokumente/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>X-Dome - August 1995</title>
+                <editor>Arman Behad</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>S. U. C. K./ACME/ERROR 2000</publisher>
+                <!-- Arman Behad -->
+                <address>
+                    <street>Hauptstr. 14</street>
+                    <postCode>65345</postCode>
+                    <settlement>Eltville</settlement>
+                    <country>Germany</country>
+                </address>   
+                <availability>
+                    <licence>Urheberrechtlich geschützt, alle Rechte vorbehalten</licence>
+                </availability>
+            </publicationStmt>
+        <sourceDesc>
+            <bibl>
+                <title>X-Dome - August 1995</title>
+                <series>X-Dome</series>
+                <publisher>S. U. C. K./ACME/ERROR 2000</publisher>
+                <pubPlace>Eltville</pubPlace>
+                <date>August 1995</date>
+            </bibl>
+        </sourceDesc>
+       </fileDesc>
+       <revisionDesc>
+           <!-- <change when="2008">OCR by untergrund.net</change> -->
+           <change when="2024">TEI enconding by JB</change>
+       </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="div00">
+                <head rend="alignCenter" type="h1">X-Dome</head>
+                <ab rend="preformatted">Ausgabe August 1995</ab>
+                <ab rend="preformatted twoColums">
+                    <cb n="a"/>
+                    <lb/>
+                    <ref target="#div01_Sprechblase">Editorial</ref>
+                    <lb/>
+                    <ref target="#div02_Mikrofon">Szene</ref>
+                    <lb/>
+                    <cb n="b"/>
+                    <ref target="#div03_Erdkugel">Software</ref>
+                    <lb/>
+                    <ref target="#div04_Kasette">Multimedia</ref>            
+                    <lb/>
+                    <ref target="#div06_Musiknote">Musik</ref>
+                </ab>
+            </div><!-- Die 4 Logos bzw die Überschriften der einzelnen Teilbereiche? Mit oder ohne Beschreibung der Bilder? + Musikmenü--> 
+        </front>
+        <body> 
+            <!-- Sprechblase -->
+            <div xml:id="div01_Sprechblase" xml:space="preserve">
+                <div xml:id="div0100_Sprechblase">                 
+                  <pb n="1" xml:id="pb0101"/>
+                   <p>
+                    <ref target="#div0101_Editorial">Editorial</ref>
+                    <ref target="#div0102_Impressum">Impressum</ref>
+                    <ref target="#div0103_Introduction">Introduction</ref>                  
+                   </p>                   
+                </div>
+                <div xml:id="div0101_Editorial" xml:space="preserve">
+                  <pb n="2" xml:id="pb0102"/> 
+                    <head rend="alignCenter" type="h2" xml:id="head0101">                      
+                        <lb n="1"/>
+                                JJJJJJJJJJJJJJJJJJJJ
+                        <lb n="2"/>
+                           <hi rend="bold">E D I T O R I A L</hi>
+                        <lb n="3"/>        
+                                JJJJJJJJJJJJJJJJJJJJ
+                    </head>
+                    <p>
+                        <lb n="4"/>
+                        Endlich ist es da : <hi rend="bold"> X-DOME !!!! </hi>
+                        <lb n="5"/>
+                        Aufgrund enormen Zeitmangels wird die-
+                        <lb n="6"/>
+                        ses Editorial kurz.
+                        <lb n="7"/>
+                        In dieser ersten Ausgabe, findet ihr
+                        <lb n="8"/>
+                        nicht sooo viel Texte, aber für den
+                        <lb n="9"/>
+                        Start ist das beträchtlich hoch!
+                        <lb n="10"/>
+                        Großes Sorry, übrigens, daß wir die
+                        <lb n="11"/>
+                        Mitglieder unter euch so lange haben
+                        <lb n="12"/>
+                        warten lassen.
+                        <lb n="13"/>
+                        Also - schreibt texte für X-Dome,
+                        <lb n="14"/>
+                        zeichnet Logo+Pics und composet wie
+                        <lb n="15"/>
+                        das Zeug hält!!
+                        <lb n="16"/>
+                        Hoffend auf eine gute X-Dome-Zukunft,
+                        <lb n="17"/>
+                        FFFFFFFFFF <hi rend="bold">ACME &amp; ERROR 2000</hi> FFFFFFFFFFF  
+                    </p>
+                </div>
+                <div xml:id="div0102_Impressum" xml:space="preserve">
+                  <pb n="3" xml:id="pb0103"/>
+                    <head rend="alignCenter" type="h2" xml:id="head0102">
+                        <lb n="1"/>
+                        JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                        <lb n="2"/>
+                        JJJJJJJJJJJJJJ...........JJJJJJJJJJJJJJJ
+                        <lb n="3"/>
+                        JJJJJJJJJJJJ <hi rend="bold">x - D O M E</hi> JJJJJJJJJJJJJ
+                        <lb n="4"/>
+                        JJJJJJJJJJJJJJ...........JJJJJJJJJJJJJJJ
+                        <lb n="5"/>
+                        JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ                       
+                        <lb n="6"/>
+                        <hi rend="underlined"><hi rend="bold"><hi rend="allcaps spaced">I M P R E S S U M</hi></hi></hi>  
+                        <lb n="7"/>
+                        <span ana="#u">___________________</span>
+                    </head>
+                    <p>
+                       <lb n="8"/>
+                       <hi rend="bold">DER CROSS-DOME-CLUB!</hi>  
+                       <lb n="9"/>
+                       Der X-Dome-Club ist die beste Alterna-
+                       <lb n="10"/> 
+                       tive für jeden C64-User. Neben diesem
+                       <lb n="11"/>
+                       genialem Diskmag bekommt ihr einen
+                       <lb n="12"/>
+                       speziellen Clubservice, bestehend aus
+                       <lb n="13"/>
+                       den diversesten &amp; orginellsten Extras.
+                       <lb n="14"/>     
+                       mit "Extras" sind z.b. Audio-Tapes,
+                       <lb n="15"/>
+                       Papermags (nicht nur C64!), Covers,
+                       <lb n="16"/>
+                       Bonusdisks etc. gemeint. Neben diesem
+                       <lb n="17"/>
+                       Angebot,inkl. Diskmag, bekommt jedes
+                       <lb n="18"/>
+                       Mitglied die vielversprechende
+                       <lb n="19"/>
+                       Programmdisk als Beilage, auf der
+                       <lb n="20"/>
+                       Kurs-Programme, Spiele-Previews oder
+                       <lb n="21"/>
+                       einfach Games, Utilities, Demos,
+                       <lb n="22"/>
+                       Grafix, Musax etc. enthalten sind.
+                       <lb n="23"/>
+                       Für die Einsteiger unter euch sind
+                       <lb n="24"/>
+                       einige dieser und anderer Begriffe
+                       <lb n="25"/>
+                       vielleicht etwas "zu hoch". Aber dafür
+                       <lb n="26"/>
+                       gibt's die Redaktion von Crossdome und
+                       <lb n="27"/>
+                       natürlich die Erklärungen, die ständig
+                       <lb n="28"/>
+                       bzw. manchmal im Diskmag zu finden sind.
+                       <lb n="29"/>
+                       was die Kosten betrifft... eine
+                       <lb n="30"/>
+                       Mitgliedschaft ist viel günstiger und
+                       <lb n="31"/>
+                       ergiebiger als die X-Dome-Ausgaben (und
+                       <lb n="32"/>
+                       das ohne Clubservice &amp; Programmdisk)
+                       <lb n="33"/>
+                       einzeln für 5DM  zu ergattern.
+                       <lb n="34"/>
+                       DENN EINE HALBJAHRESFRIST MITGLIED-
+                       <lb n="35"/>
+                       SCHAFT KOSTET NUR 18DM.!! 
+                       <lb n="36"/>
+                       Die Jahresfrist wurde aus einigen Grün-
+                       <lb n="37"/>     
+                       den abgeschafft. An die Leute, die schon
+                       <lb n="38"/>
+                       voher eine Jahresfrist bestellt haben :
+                       <lb n="39"/>
+                       Keine Angst, IHR  bekommt eure Mitglied-
+                       <lb n=" 40"/>
+                       schaft für ein Jahr!
+                       <lb n="41"/>
+                       Also, nutzt dieses Angebot aus, denn ab
+                       <lb n="42"/>
+                       dem Juli'96 wird's X-Dome wahrscheinlich
+                       <lb n="43"/>
+                       entweder nicht mehr geben bzw. X-Dome
+                       <lb n="44"/>
+                       verwandelt sich in ein kostenloses Mag
+                       <lb n="45"/>
+                       oder es wird weiterhin
+                       <lb n="46"/>
+                       von Discount 2000 und anderen
+                       <lb n="47"/>
+                       Herstellern/Versandhäusern kommerziell
+                       <lb n="48"/>
+                       vermarktet werden, den Club wird
+                       <lb n="49"/>
+                       es aber nicht mehr geben!
+                       <lb n="50"/>
+                       Nun, bevor alles vorbei ist, solltet
+                       <lb n="51"/>
+                       ihr den Club jedoch nicht verpassen!
+                       <lb n="52"/>     
+                       X-DOME ERSCHEINT ALLE 6 WOCHEN! 
+                       <lb n="53"/>
+                       _______________________________
+                       <lb n="54"/>     
+                       X-DOME DARF NICHT EINFACH WEITERKOPIERT 
+                       <lb n="55"/>
+                       WERDEN!________________________________
+                       <lb n="56"/>
+                       X-DOME DARF NUR WEITERGEGEBEN WERDEN,
+                       <lb n="57"/>
+                       WENN U DM VERLANGT WIRD!____________ 
+                       <lb n="58"/>     
+                       (Gilt nicht für Ausgabe #1)
+                       <lb n="59"/>
+                    </p>
+                  <pb n="4" xml:id="pb0104"/>
+                    <head rend="alignCenter">                       
+                       = == === ==== =========== ==== === == =
+                       <lb n="1"/>     
+                       = == === ===   Redaktion   === === == =
+                       <lb n="2"/>
+                       = == === ==== =========== ==== === == =
+                    </head>      
+                    <p>        
+                       <lb n="3"/>
+                       Leiter, Erfinder und Verantwortlicher
+                       <lb n="4"/>
+                       für X-Dome :
+                       <lb n="5"/>     
+                       <hi rend="alignCenter">
+                                    S.U.C.K/ACME/ERROR 2000 
+                       <lb n="6"/>
+                                    Arman Behdad
+                       <lb n="7"/>             
+                                    Hauptstr. 14
+                       <lb n="8"/>             
+                                    65345 Eltville
+                       <lb n="9"/>             
+                                    Tel.: 06123/972088
+                       <lb n="10"/>             
+                                    _______________________                                   
+                       </hi>
+                       <lb n="11"/>
+                       Stellv. Leiter :
+                       <lb n="12"/>     
+                                THE PINK PUNKER/ACME/ERROR 2000. 
+                       <lb n="13"/>         
+                                Armin Beck
+                       <lb n="14"/>
+                                Sissiweg 8
+                       <lb n="15"/>
+                                86551 Aichach
+                       <lb n="16"/>
+                                Tel.: 08251/52655
+                       <lb n="17"/>
+                                _______________________________
+                       <lb n="18"/>     
+                            Coder des Magazinsystems :
+                       <lb n="19"/>     
+                                       MIST/ERROR 2000
+                       <lb n="20"/>
+                                       Michael Steil
+                       <lb n="21"/>
+                                       Eittingerstr. 11 b
+                       <lb n="22"/>
+                                       85459 Berglern
+                       <lb n="23"/>
+                                       Tel.: 08762/2032
+                       <lb n="24"/>
+                                (Achtet auf eure Telefongebühren!)
+                       <lb n="25"/>     
+                            Reperatur-Service &amp; Hardware-Anfragen :
+                       <lb n="26"/>     
+                                       HANNI/ACME
+                       <lb n="27"/>
+                                       Marco Hannemann
+                       <lb n="28"/>
+                                       Pritzwalkerstr. 16
+                       <lb n="29"/>
+                                       19348 Perleberg
+                       <lb n="30"/>
+                                       Tel.: 03876/786489
+                       <lb n="31"/>
+                                       __________________
+                       <lb n="32"/>     
+                            PD/FW/SW-Service :
+                       <lb n="33"/>     
+                                      RAM MAN/ACME
+                       <lb n="34"/>
+                                      Daniel Himmel
+                       <lb n="35"/>
+                                      Alois-Degler Str. 18
+                       <lb n="36"/>
+                                      76571 Gaggenau
+                       <lb n="37"/>
+                                      Tel.: 07225/919143
+                       <lb n="38"/>
+                                      ____________________
+                       <lb n="39"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="40"/>     
+                            @@@  SCHICKT EURE  LESERBRIEFE  AN :  @@ 
+                       <lb n="41"/>
+                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="42"/>     
+                            @@@@@@@@@@@FAT BOB/ERROR 2000@@@@@@@@@@@ 
+                       <lb n="43"/>     
+                            @@@@@@@@@@@Sascha Karschner@@@@@@@@@@@@@
+                       <lb n="44"/>     
+                            @@@@@@@@@@@Sophienstr. 77@@@@@@@@@@@@@@@
+                       <lb n="45"/>     
+                            @@@@@@@@@@@99817 Eisenach@@@@@@@@@@@@@@@
+                       <lb n="46"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="47"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                            
+                       <lb n="48"/>     
+                            Offizielle X-Dome-Verkäufer :
+                       <lb n="49"/>     
+                                        werden gesucht!
+                       <lb n="50"/>                 
+                                        _______________
+                       <lb n="51"/>                                 
+                            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                       <lb n="52"/>     
+                            AB SOFORT- DIE CROSS-DOME J HOTLINE J !!!!
+                       <lb n="53"/>
+                        <!-- >>><<< wie kodieren? -->
+                       >>> 08251 / 25655 <<< 			  
+                       <lb n="54"/>     
+                            DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+                    </p>
+                 <pb n="5" xml:id="pb0105"/>
+                    <p>
+                       <lb n="1"/>                                 
+                            .........IHR SEID AN DER REIHE!..... 
+                       <lb n="2"/>                                 
+                       Wer von euch wollte  mal so  richtig
+                       <lb n="3"/>
+                       an einem kommerziellen Mag der Szene
+                       <lb n="4"/>
+                       beteiligt sein? Nun  habt  ihr  eine
+                       <lb n="5"/>       
+                       Chance, kompetente Texte  zu schrei-
+                       <lb n="6"/>
+                       ben, mit  Leuten  aus  der C64-Szene
+                       <lb n="7"/>       
+                       zu  korrespondieren,  eure   Meinung
+                       <lb n="8"/>       
+                       auszulassen, über  etwas  Brandneues
+                       <lb n="9"/>
+                       zu berichten, etwas/jemanden zu  pa-
+                       <lb n="10"/>
+                       rodieren, anderen  Lesern zu helfen,
+                       <lb n="10"/>
+                       zu Problemen Fragen stellen usw.usw...
+                       <lb n="11"/>
+                       Jeder  Textbeitrag, der unseren Vor-
+                       <lb n="12"/>
+                       rausetzungen   (hierzu später)  ent-
+                       <lb n="13"/>
+                       spricht,  wird  vollkommen und  ohne
+                       <lb n="14"/>
+                       irgendwelche    Zensuren  veröffent-
+                       <lb n="15"/>licht.
+                       DIE X-DOME REDAKTION UEBERNIMMT KEINE
+                       <lb n="16"/>
+                       VERANTWORTUNG UEBER INHALT, WAHRHEITS-
+                       <lb n="17"/>
+                       GEHALT UND RICHTIGKEIT DER TEXTE	
+                       <lb n="18"/>     
+                       NIEMAND HAT EIN "RECHT", DASS BEITRÄGE
+                       <lb n="19"/>
+                       DESJENIGEN/DERJENIGEN VERÖFFENTLICHT
+                       <lb n="20"/>       
+                       WERDEN!				
+                    </p>
+                 <pb n="6" xml:id="0106"/>
+                    <p>
+                       <lb n="1"/>      
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="2"/>       
+                              UCCCCCCCCCCCCCCCCCCCCCCCCCCI
+                       <lb n="3"/>       
+                              B TEXTBEITRAEGE FÜR X-DOME B 	
+                       <lb n="4"/>       
+                              JCCCCCCCCCCCCCCCCCCCCCCCCCCK
+                       <lb n="5"/>
+                              @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="5"/>     
+                              Auf welches Material sollen die Texte?
+                       <lb n="6"/>     
+                              Eure Texte könnt ihr entweder auf
+                       <lb n="7"/>       
+                              Papier oder mit dem Voodoo-Noter,der
+                       <lb n="8"/>       
+                              auf dieser X-Dome, inkl. Anleitung
+                       <lb n="9"/>       
+                              zu finden ist schreiben. Den fertigen
+                       <lb n="10"/>       
+                              Text/die fertigen Texte (in diesem
+                       <lb n="11"/>       
+                              Fall spielt es keine Rolle, wieviel
+                       <lb n="12"/>
+                              Texte es sind. Je mehr Beiträge,desto
+                       <lb n="13"/>
+                              besser! Sogar Unmengen von 40 Blättern
+                       <lb n="14"/>       
+                              sind erwünscht!) schickt ihr an
+                       <lb n="15"/>       
+                              S.U.C.K/ACM/ERR () (die Addy findet ihr
+                       <lb n="16"/>       
+                              am Anfang dieser Rubrik und mehrmals
+                       <lb n="17"/>       
+                              im Mag.). Uns ist es viel lieber und
+                       <lb n="18"/>       
+                              hemmt eine Menge an Arbeit, wenn ihr
+                       <lb n="19"/>       
+                              eure Texte mit dem Voodoo-Noter
+                       <lb n="20"/>       
+                              schreibt.
+                       <lb n="21"/>       
+                              Was ist, wenn der Text nicht
+                       <lb n="22"/>       
+                              veroeffentlicht wird?
+                       <lb n="23"/>     
+                              Wenn dies der Fall ist, dann sind
+                       <lb n="24"/>       
+                              entweder die Vorrausetzungen nicht
+                       <lb n="25"/>       
+                              beachtet worden,  es ist ein Mißver-
+                       <lb n="26"/>       
+                              ständnis eingetreten, es gab techni-
+                       <lb n="27"/>       
+                              sche Schwierigkeiten, es gab einen
+                       <lb n="28"/>       
+                              "Schlampismus", so, daß der Text
+                       <lb n="29"/>       
+                              unfreiwillig vernichtet wurde oder
+                       <lb n="30"/>       
+                              der Text ist gar nicht angekommen!
+                       <lb n="31"/>       
+                              Falls euer Text in der daraufolgenden
+                       <lb n="32"/>       
+                              Ausgabe nicht erscheint, einfach mal
+                       <lb n="33"/>        
+                              telefonisch bei S.U.C.K melden und
+                       <lb n="34"/>       
+                              fragen, was los sei.
+                       <lb n="35"/>      
+                              Übrigens : Diese Fälle da oben sind
+                       <lb n="36"/>       
+                              nur sehr selten/treten fast nie auf!
+                       <lb n="37"/>     
+                    </p>
+                 <pb n="7" xml:id="pb0107"/>
+                    <head rend="alignCenter">
+                       <lb n="1"/>
+                            JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                       <lb n="2"/>    
+                            JJJJJJ _________________________ JJJJJJJ
+                       <lb n="3"/>    
+                           JJJJJJ DAS SOLLTET IHR BEACHTEN! JJJJJJJ 	
+                       <lb n="4"/>    
+                           JJJJJJ _________________________ JJJJJJJ
+                       <lb n="5"/>     
+                            JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ                            
+                   </head> 
+                   <p>
+                       <lb n="6"/>     						
+                              . Wir werden keine Texte veröffent-
+                       <lb n="7"/>         
+                                lichen, die zu unkonkret geschrieben
+                       <lb n="8"/>        
+                               sind, es sei denn, der Erfasser
+                       <lb n="9"/>         
+                                hat die Möglichkeit, den Text
+                       <lb n="10"/>         
+                                etwas verständlicher zu korrigieren.
+                       <lb n="11"/>     
+                            ... Achtet auf die Kompetenz eurer .....
+                       <lb n="12"/>         
+                                Beiträge! X-Dome ist einfach keine
+                       <lb n="13"/>         
+                                Digital Talk oder CF, wo jeder
+                       <lb n="14"/>         
+                                subjektive Tests, Meinungen, die
+                       <lb n="15"/>         
+                                keiner kapiert, langweilige Bei-
+                       <lb n="16"/>         
+                                träge usw. hier ablagern kann.
+                       <lb n="17"/>         
+                                Dies soll kein Vorwurf zur dt oder
+                       <lb n="18"/>         
+                                zm cf sein! Es ist nämlich absolut
+                       <lb n="19"/>        
+                               schwachsinnig eine subkektive
+                       <lb n="20"/>      
+                             Meinung hier loszuwerden. Jemand
+                       <lb n="21"/>         
+                                wertet z.b. ein Spiel sehr schlecht,
+                       <lb n="22"/>         
+                                der andere springt in die meinung
+                       <lb n="23"/>         
+                                rein und sagt, daß das Spiel super
+                       <lb n="24"/>         
+                                sei, ein anderer widerspricht, der
+                       <lb n="25"/>         
+                                andere sagt doch usw..., und nach
+                       <lb n="26"/>         
+                                5 Ausgaben stehen sie immer noch
+                       <lb n="27"/>         
+                                im Streit. Und deswegen - bitte nur
+                       <lb n="28"/>         
+                                objektive Tests von objektiven
+                       <lb n="29"/>         
+                                Testern!
+                       <lb n="30"/>         
+                                Auch sollen Themen ausgesucht wer-
+                       <lb n="31"/>         
+                                den, die informativ, humorvoll,
+                       <lb n="32"/>         
+                                meinetwegen auch sarkastisch+derb,
+                       <lb n="33"/>         
+                                vielleicht sogar umwerfend sind oder
+                       <lb n="34"/>        
+                               einfach gut geschrieben sein.
+                       <lb n="35"/>     
+                              . Zensieren werden wir in Zukunft
+                       <lb n="36"/>         
+                                wenig bzw. nichts! Nicht mal unnötig
+                       <lb n="37"/>         
+                                derbe Schriftzüge!Das kommt ganz auf
+                       <lb n="38"/>        
+                               euch selber und dem Text an.
+                       <lb n="39"/>       
+                              Wenn ihr etwas scharf und gnadenlos
+                       <lb n="40"/>         
+                                kritisiert bzw. euch über etwas
+                       <lb n="41"/>         
+                                grauenvolles  unverschämt lustig
+                       <lb n="42"/>         
+                                macht, dann könnt ihr unpassende
+                       <lb n="43"/>         
+                                Wörter einsetzten.
+                       <lb n="44"/>         
+                                Zensiert wird : Wenn ihr jemanden
+                       <lb n="45"/>         
+                                gemein niedermacht, der/die eigent-
+                       <lb n="46"/>         
+                                lich ein(e) ganz normale(r),
+                       <lb n="47"/>         
+                                nette(r) und nützlicher Kerl/Dame
+                       <lb n="48"/>        
+                               ist. Rassistsche Beiträge, die
+                       <lb n="49"/>         
+                                andere Landsleute vergrölen.
+                       <lb n="50"/>     
+                              ..Jeder kann hier seine Texte
+                       <lb n="51"/>         
+                                veröffentlichen, wenn die Adresse
+                       <lb n="52"/>         
+                                angegeben wird. Ihr könnt euch
+                       <lb n="53"/>         
+                                hier im Mag unter einem Pseudonym
+                       <lb n="54"/>         
+                                bekannt geben. Anonyme Texte
+                       <lb n="55"/>         
+                                brauchen keine Adresse. Solange
+                       <lb n="56"/>         
+                                der Inhalt nicht zu aufwendig ist,
+                       <lb n="57"/>         
+                                werden auch anonyme Texte veröffent-
+                       <lb n="58"/>         
+                                licht.
+                       <lb n="59"/>
+                              . Bitte schreibt sauber und lesbar!
+                       <lb n="60"/>         
+                                Bevorzugt werden Texte, die mit ei-
+                       <lb n="61"/>         
+                                nem Computer gedruckt wurden/mit
+                       <lb n="62"/>         
+                                einer Schreibmaschiene getippt wur-
+                       <lb n="63"/>         
+                                den. Benutzt bei handschriftlichen
+                       <lb n="64"/>         
+                                Texten nur einen blauen oder
+                       <lb n="65"/>        
+                               schwarzen Stift und schreibt nach
+                       <lb n="66"/>        
+                               Möglichkeit bitte in Druckschrift.                            
+                       <lb n="67"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="68"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="69"/>     
+                            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                       <lb n="70"/>     
+                            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                       <lb n="71"/>      
+                             Vorschläge, Verbesserungen &amp; Kritik
+                       <lb n="72"/> 
+                        werden sehr gerne angenommen!
+                       <lb n="73"/> 
+                        CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                   </p>
+                 <pb n="8" xml:id="pb0108"/>
+                   <head rend="alignCenter">
+                       <lb n="1"/>
+                             X-PROGS
+                       <lb n="2"/> 
+                       _________
+                   </head>    
+                   <p> 
+                       <lb n="3"/>      
+                             Wer seine Programme in der Crossdome
+                       <lb n="4"/>      
+                             veröffentlichen will, kann das gerne
+                       <lb n="5"/>      
+                             machen. Allerdings bekommt das  Prog
+                       <lb n="6"/>      
+                             keinen Copyright! Das Programm soll-
+                       <lb n="7"/>      
+                             te frei von rechten  Dritter und ab-
+                       <lb n="8"/>      
+                             solut freikopierbar sein.
+                       <lb n="9"/>     
+                            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                       <lb n="10"/>     
+                            CHTUNG!!ACHTUNG!!ACHTUNG!!ACHTUNG!!ACHTUNG!!A
+                       <lb n="11"/>     
+                            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                       <lb n="12"/>     
+                             Wir suchen Leute, die bereit sind für
+                       <lb n="13"/>      
+                             X-Dome LOGOS &amp; MUSICS  zu erstellen!!!!
+                       <lb n="14"/>      
+                             die Logos müssen im Koala-Format  und
+                       <lb n="15"/>      
+                             höchstens 60-Pixel hoch sein.
+                       <lb n="16"/>      
+                             Die Musics müssen bei $1000-$2000 lie-
+                       <lb n="17"/>      
+                             gen (init:1000, jsr:1003) .
+                       <lb n="18"/>      
+                             Allen Aktivisten danken wir im voraus!
+                       <lb n="19"/>      
+                             Wichtig : Fragt  erst  telefonisch bei
+                       <lb n="20"/>      
+                             S.U.C.K  nach, bevor ihr  ein Logo/Zak
+                       <lb n="21"/>   
+                          erstellt!                            
+                       <lb n="22"/>     
+                            JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                       <lb n="23"/>     
+                               !! DER EINSENDESCHLUSS IST DER !!
+                       <lb n="24"/> 
+                        !! 24.8.95 !!
+                       <lb n="25"/>     
+                            ........................................
+                       <lb n="26"/>     
+                            !! X-DOME #2 ERSCHEINT MITTE SEPTEMBER !!
+                       <lb n="27"/>     
+                            JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ                            
+                       <lb n="28"/>     
+                             Wir hoffen, daß X-Dome euch voll und
+                       <lb n="29"/>      
+                             ganz gefällt. Es sind übrigens auch
+                       <lb n="30"/>      
+                             schon Worte gefallen, daß X-Dome in
+                       <lb n="31"/>      
+                             Englisch rauskommen sollte. Noch ist
+                       <lb n="32"/>      
+                             das nur ein Gerücht.
+                       <lb n="33"/>     
+                            Suck hatte zu dieser Rubrik noch mehr
+                       <lb n="34"/>
+                            geschrieben, aber auf unerklärliche
+                       <lb n="35"/>     
+                            Weise gab plötzlich die Diskette mit
+                       <lb n="36"/>    
+                           dem Text den Geist auf und das hier ist
+                       <lb n="37"/>     
+                            alles, was ich (Mist) retten konnte. Wir
+                       <lb n="38"/>     
+                            werden versuchen, in Zukunft, bessere
+                       <lb n="39"/>     
+                            Disketten zu benutzen...
+                     </p>
+                </div>
+            </div>
+            <!-- Mikrofon -->
+            <div xml:id="div02_Mikrofon" xml:space="preserve">
+                <div xml:id="div0200_Mikrofon">
+                  <pb n="" xml:id=""/>
+                   <p>
+                    <ref target="#div0201_Szene News">Szene News</ref>
+                    <ref target="#div0202_Addy Corner">Impressum</ref>
+                    <ref target="#div0203_Mag Reviews">Mag Reviews</ref>
+                    <ref target="#div0204_Kleinanzeigen">Kleinanzeigen</ref>
+                   </p>
+                </div>
+            </div>
+            <!-- Erdkugel -->
+            <div xml:id="div03_Erdkugel" xml:space="preserve">
+                <div xml:id="div0300_Erdkugel">
+                   <pb n="" xml:id=""/>
+                    <p>
+                    <ref target="#div0301_News">Szene News</ref>
+                    <ref target="#div0302_Utility Corner">Utility Corner</ref>
+                    <ref target="#div0303_Utility Review">Utility Review</ref>
+                    <ref target="#div0304_Game Review">Game Review</ref>
+                    <ref target="#div0305_Spieletips">Spieletips</ref>
+                    <ref target="#div0306_Assemblerkurs">Assemblerkurs</ref>
+                    <ref target="#div0307_Rest">Rest</ref>
+                   </p>
+                </div>
+            </div>
+            <!-- Kasette -->
+            <div xml:id="div04_Kasette">
+                <div xml:id="div0400_Kasette">
+                   <pb n="" xml:id=""/>
+                    <p> 
+                    <ref target="#div0401_Dance Corner 1">Dance Corner 1</ref>
+                    <ref target="#div0402_Dance Corner 2">Dance Corner 2</ref>
+                    <ref target="#div0403_Movies">Movies</ref>
+                   </p>
+                </div>
+            </div>
+            <!-- Musikmenü!!! -->
+        </body>
+    </text>
+</TEI>
