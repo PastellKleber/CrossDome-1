@@ -1,0 +1,12 @@
+/* c64 colors as web colors */
+/* source: https://style64.org/c64-truetype */
+@font-face {
+	font-family:'C64 Pro Mono';
+	src:url('fonts/C64_Pro_Mono-STYLE.eot');
+	src:url('fonts/C64_Pro_Mono-STYLE.eot?#iefix') format('embedded-opentype'),
+		url('fonts/C64_Pro_Mono-STYLE.woff2') format('woff2'),
+		url('fonts/C64_Pro_Mono-STYLE.woff') format('woff'),
+		url('fonts/C64_Pro_Mono-STYLE.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}

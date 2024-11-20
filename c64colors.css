@@ -1,0 +1,35 @@
+/* c64 colors as web colors */
+/* source: https://www.c64-wiki.com/wiki/Color */
+.c64white { color:#FFFFFF; }
+.c64black { color:#000000; }
+.c64red { color:#880000; }
+.c64cyan { color:#aaffee; }
+.c64violet { color:#cc44cc; }
+.c64green { color:#00cc55; }
+.c64blue { color:#0000aa; }
+.c64yellow { color:#eeee77; }
+.c64orange { color:#dd8855; }
+.c64brown { color:#664400; }
+.c64lightred { color:#ff7777; }
+.c64darkgrey { color:#333333; }
+.c64grey { color:#777777; }
+.c64lightgreen { color:#aaff66; }
+.c64lightblue { color:#0088ff; }
+.c64lightgrey { color:#bbbbbb; }
+
+.c64whiteBg { color:#FFFFFF; } /*hintergrund*/
+.c64blackBg { color:#000000; } /*text*/
+.c64redBg { color:#880000; } /*persName*/
+.c64cyanBg { color:#aaffee; } /*-schwer lesbar-*/
+.c64violetBg { color:#cc44cc; } /*title*/
+.c64greenBg { color:#00cc55; } /*orgName*/
+.c64blueBg { color:#0000aa; } /*a*/
+.c64yellowBg { color:#eeee77; } /*-schwer lesbar-*/
+.c64orangeBg { color:#dd8855; } /*name*/
+.c64brownBg { color:#664400; } /*-schwer lesbar-*/
+.c64lightredBg { color:#ff7777; }
+.c64darkgreyBg { color:#333333; }
+.c64greyBg { color:#777777; }
+.c64lightgreenBg { color:#aaff66; }
+.c64lightblueBg { color:#0088ff; } /*term*/
+.c64lightgreyBg { color:#bbbbbb; } /*.editorial*/

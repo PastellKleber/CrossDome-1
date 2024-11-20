@@ -1,0 +1,373 @@
+/* main.css */
+
+/* HTML root: background */
+html { margin:0; 
+       padding:0; 
+       background-color:#000000; 
+       font-family:"Courier New", 
+       Courier, monospace; 
+       font-size:20px;
+       font-weight: 500;
+       }
+
+/* HTML body: invisible container */
+body { width:24rem; margin:1rem auto; padding:0; color:#000000;}
+
+/* HTML main sections */
+nav,header,article,footer	{ width:100%; 
+                               margin:0.5rem 0; 
+                               padding:0.7rem 3rem; 
+                               background-color:#bbbbbb; }/*c64lightgrey*/
+nav,header					{ text-align:center; }
+nav							{ background-color:#333333;/*c64darkgrey*/ 
+                                 color:white; 
+                                 font-family:Tahoma, Geneva, sans-serif; }
+
+/* HTML text divisions */
+div							{ position:relative; 
+                                 margin:1rem 0; 
+                                 padding-bottom:0.5rem; }
+div.div1:not(:last-child)	{ border-bottom:0.1rem solid black; }
+div.div2:not(:last-child)	{ border-bottom:0.07rem dotted #bbbbbb;/*c64lightgrey*/ }
+
+/* HTML text blocks */
+/*h1,h2,h3,h4,h5,h6	{ font-family:"Courier New", 
+                       Courier, monospace; 
+                       padding:1rem 0; 
+                       margin:0; }*/
+h1,h2,h3,h4,h5,h6	{ font-family:"Courier New", 
+                       Courier, monospace; 
+                       padding:1rem 0; 
+                       margin:0; 
+                       font-size:24px;}
+p					{ text-align:justify; 
+                       margin:0.5rem 0; 
+                       position:relative; }
+figure				{ text-align:center; padding:0; margin:0.5rem 0; }
+figure 			{ width:100%; }
+img                {display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 90%;}
+.glyphgr           {display: inline;  
+                    /*margin-left: auto;
+                    margin-right: auto;*/
+                    width: 10%;}
+
+figure figcaption	{ display:none; }
+
+/* HTML lists */
+ul		{ list-style-type:none; padding:0; margin:0.5rem 0; }
+ul li	{ margin:0.5rem 0; text-align:left; }
+
+/* HTML hyperlinks */
+a				{ text-decoration:none; color:#0000aa;/*c64blue*/ }
+nav a, footer a	{ color:#0088ff;/*c64lightblue*/ }
+span.note a		{ color:#eeee77;/*c64yellow*/ }
+
+/* block rendition attributes */
+
+.alignCenter	{ text-align:center; }
+.alignLeft		{ text-align:left; }
+.alignRight		{ text-align:right; }
+
+.head          	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  -1rem; 
+                   /*white-space:pre;*/ }
+.headas          { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  0rem;} 
+.headut2           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  -2.5rem;
+                   /*text-align:justify;*/}
+.headut1       	{ font-family:"Courier New", /*Szene-News ebenfalls mit ut1*/
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  -2.5rem;}
+.headsz            { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1rem; 
+                   letter-spacing: -0.02rem;
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  3rem;}
+.headmr            { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  4rem;}
+.headimp            { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  -2.5rem;
+                   /*text-align:justify;*/}
+.heade            { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  -1rem;                  
+                   /*white-space:pre;*/ }
+.headmv            { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:600; 
+                   font-style:normal; 
+                   margin:1rem  4rem;
+                   text-align:justify;}
+ 
+.shout			{ text-align:justify; 
+                  margin:0.5rem 0; 
+                  position:relative; 
+                  line-height: 1.5rem}
+.preformatted	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1rem; 
+                   font-weight:normal; 
+                   font-style:normal; 
+                   margin:1rem auto; 
+                   white-space:pre; }
+.blockgraphic	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1rem; 
+                   font-weight:normal; 
+                   font-style:normal; 
+                   margin:1rem auto; 
+                   white-space:pre; }
+.prefp	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1rem; 
+                   font-weight:normal; 
+                   font-style:normal; 
+                   margin:1rem auto; 
+                   white-space:pre; }
+.prefp2	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.05rem; 
+                   font-weight:normal; 
+                   font-style:normal; 
+                   margin:1rem auto; 
+                   white-space:pre; }
+
+.imp2              { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.6rem;  
+                   font-style:normal; 
+                   margin:1rem  -2rem;
+                   text-align:justify;}
+.graphimp          { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1.5rem; 
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  -2rem;
+                   /*text-align:justify;*/}
+
+.indent2rem		{ text-indent:2rem; }
+.hanging2rem	{ text-indent:-2rem; padding-left:2rem; }
+.preserveLines	{ /*nothing*/ }
+.twoColums		{ column-count:2; }
+
+/* inline rendition attributes */
+
+.achtung           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: 0rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem;
+                   /*text-align:justify;*/}
+                   
+.line	{ font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:1rem; 
+                   font-weight:normal; 
+                   font-style:normal; 
+                   margin: 1rem -2rem ; 
+                   white-space:pre; }
+                   
+.letter           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: -0.085rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem;
+                   /*text-align:justify;*/}
+.letter2           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: -0.02rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem;
+                   }       /*verwendet in szene news*/        .letter3           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: 0.09rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem;
+                   }   /*verwendet in shout und dance corner 1*/
+.letter4           { font-family:"Courier New", 
+                   Courier, monospace;
+                   font-size: 14px;
+                   line-height:0.7rem; 
+                   letter-spacing: 0.09rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem -1.25rem;
+                   }   /*verwendet in mag reviews*/
+.letter5           { font-family:"Courier New", 
+                   Courier, monospace;
+                   /*font-size: 14px;*/
+                   line-height:0.7rem; 
+                   letter-spacing: 0.09rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem -2rem;
+                   }   /*verwendet in mag reviews*/
+.letter6           { font-family:"Courier New", 
+                   Courier, monospace;
+                   line-height:0.7rem; 
+                   letter-spacing: -0.25rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem -2.25rem;
+                   }   /*verwendet in mag reviews*/           .letter7           { font-family:"Courier New", 
+                   Courier, monospace;
+                   line-height:0.7rem; 
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem -1.15rem;
+                   }   /*verwendet in mag reviews*/       
+.letter8           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  -2rem;}
+                   /*verwendet in utility corner */
+.letter9           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: 0.06rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem; 
+                   } /*verwendet in utility corner*/
+.letter10           { font-family:"Courier New", 
+                   Courier, monospace;
+                   line-height:0.7rem; 
+                   letter-spacing: -0.14rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem 0rem;                   
+                   } /*verwendet in game review*/
+.letter11           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.7rem; 
+                   letter-spacing: 0.1rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0rem;
+                   }   /*verwendet in shout und dance corner 1*/
+.letter12           { font-family:"Courier New", 
+                   Courier, monospace; 
+                   line-height:0.5rem; 
+                   letter-spacing: -0.0145rem;
+                   font-weight:bold; 
+                   font-style:normal; 
+                   margin:1rem  0.25rem;
+                   }       /*verwendet in impressum*/  
+ 
+.margin-text1         {margin: 1rem 0.25rem;    
+                   } 
+.margin-text2         {margin: 1rem -0.45rem;    
+                   }
+
+.allcaps		{ /*nothing*/ }
+.code			{ font-family:"Courier New", Courier, monospace; 
+                  color:#333333;}
+.lang			{ font-family:"Courier New", Courier, monospace;
+                   font-weight: 300;
+                   color:#333333;}
+.block			{ display:block; margin:0.5rem 0; }
+.inverted		{ background-color:black; 
+                   color:white; 
+                   padding-left:2px; 
+                   padding-right:2px; }
+.spaced			{ white-space:pre; }
+.underlined		{ text-decoration:underline; }
+.dashed         { text-decoration:underline;
+                  text-decoration-style: dashed;
+                   }
+.bold              { font-weight: bold; }
+/* topography */
+.leftMargin		{ position:absolute; left:-2rem; }
+.rightMargin	{ position:absolute; right:-2rem; }
+.editorialMark	{ color:#bbbbbb; 
+                    text-indent:0; 
+                    line-height:1rem; 
+                    vertical-align:middle; }
+.editorialText	{ color:#777777;/*c64grey*/ 
+                    text-indent:0; 
+                    font-style:oblique; }
+
+/* semantics */
+a[data-tei='name']		{ color:#dd8855;/*c64orange*/ }
+a[data-tei='orgName']	{ color:#00cc55;/*c64green*/ }
+a[data-tei='persName']	{ color:#880000;/*c64red*/ }
+a[data-tei='title']		{ color:#cc44cc;/*c64violet*/ }
+
+/* terms and notes */
+span.term { position:relative; 
+            text-decoration:underline; 
+            text-decoration-style:dotted; 
+            text-decoration-color:#777777; }
+
+/* popup items */
+span.note, figure, figcaption { font-family:"Courier New", Courier, monospace; 
+                                width:24rem; 
+                                position:sticky; 
+                                top: 0;
+                                background-color:#777777; 
+                                color:white; 
+                                box-shadow:5px 5px #333333; 
+                                padding:0.5rem; 
+                                display:none; 
+                                text-align:left; 
+                                z-index:1; 
+                                text-indent:0; }
+
+span.term:hover span.note,
+span.term:focus span.note,
+span.note:hover, span.note:focus,
+figure:hover figcaption,
+figure:focus figcaption { display:block; margin:0 0 0 1rem; }
+
+
+/* glyphen */
+.glyphgr img          {display: inline;  
+                       vertical-align: baseline;
+                    /*margin-left: auto;
+                    margin-right: auto;*/
+                    width: 0.7rem;}
+
