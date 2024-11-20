@@ -1,4 +1,4 @@
-Crossdome #1 - Version 1.0
+Crossdome #1 - Version 1.0:
 
 This is my take on a digital version of the first issue of Crossdome, a german diskmag about techno, lifestyle and C64 programs and tools.
 
